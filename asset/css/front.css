@@ -711,3 +711,8 @@ form .icon-question-sign {
     background-color: #b51917;
     color: #fff;
 }
+
+/* shop */
+.shop-block-product .thumbnail {
+    border-color: #fff;
+}
