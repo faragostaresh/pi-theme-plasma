@@ -101,19 +101,20 @@ h5, h6 {
 
 /* Block */
 .pi-block {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .pi-block-title {
     padding: 10px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: right;
     color: #b51917;
+    border-bottom: 1px solid #ccc;
 }
 
 .pi-block-title h2,
 .pi-block-title h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding: 0;
     margin: 0;
 }
@@ -600,45 +601,20 @@ form .icon-question-sign {
     text-align: right !important;
 }
 
-/* blocks */
-.widget-about, .widget-datis-khazaeli {
-    background: #f5f5f5;
-    padding: 35px 15px;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-/* event block */
-.event-block h3 {
-    text-align: center;
-    padding: 15px 0;
-}
-
-.event-block .event-single-summery {
-    text-align: center;
-}
-
 /* owl */
 .owl-nav [class*='owl-'] {
     font-size: 30px !important;
-    background: rgba(255, 255, 255, 0.9);
+    background: #D6D6D6;
     height: 40px;
     width: 40px;
     padding: 5px 15px 5px 15px;
-}
-
-.pi-section-brand .owl-nav [class*='owl-'] {
-    font-size: 30px !important;
-    background: inherit !important;
-    height: 40px;
-    width: 40px;
-    padding: 5px 15px 5px 15px;
-    color: #fff !important;
+    border-radius: 3px;
+    color: #fff;
 }
 
 .owl-nav [class*='owl-']:hover {
     color: #b51917 !important;
-    background: rgba(255, 255, 255, 0.9);
+    background: #869791;
 }
 
 .owl-next {
@@ -657,4 +633,81 @@ form .icon-question-sign {
     top: 30%;
     right: 0;
     display: block !important;
+}
+
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+    background: #869791;
+}
+
+/* Box */
+.box-information {
+    background: #b51917;
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin-bottom: 45px;
+    color: #fff;
+}
+
+.box-information-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.box-information ul {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.box-information ul li {
+    padding-right: 55px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.2em;
+    list-style: none;
+    position: relative;
+}
+
+.box-information ul li:before {
+    content: '۱';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -9px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #b51917;
+    text-align: center;
+    line-height: 33px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-information ul li:nth-child(2):before {
+    content: '۲';
+}
+
+.box-information ul li:nth-child(3):before {
+    content: '۳';
+}
+
+.box-information ul li:nth-child(4):before {
+    content: '۴';
+}
+
+.box-information li:nth-child(5):before {
+    content: '۵';
+}
+
+.pi-zone-4 .box-information,
+.pi-zone-6 .box-information {
+    background: #fff;
+    color: #011526;
+}
+
+.pi-zone-4 .box-information ul li:before,
+.pi-zone-6 .box-information ul li:before{
+    background-color: #b51917;
+    color: #fff;
 }

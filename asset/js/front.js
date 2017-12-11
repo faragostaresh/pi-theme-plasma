@@ -19,7 +19,7 @@
     });
 
     $(document).ready(function ($) {
-        $('.recent-event-list .owl-carousel').owlCarousel({
+        $('.shop-block-product .owl-carousel').owlCarousel({
             //loop:true,
             //lazyLoad:true,
             margin: 3,
