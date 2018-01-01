@@ -109,7 +109,7 @@ h5, h6 {
     margin-bottom: 10px;
     text-align: right;
     color: #b51917;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #c3911e;
 }
 
 .pi-block-title h2,
@@ -368,7 +368,7 @@ form .icon-question-sign {
 
 /* header */
 .pi-header .pi-header-body {
-    border-bottom: 3px solid #b51917;
+    border-bottom: 3px solid #c3911e;
 }
 
 .pi-header h1,
@@ -433,6 +433,7 @@ form .icon-question-sign {
 
 /* footer */
 .pi-footer {
+    border-top: 3px solid #c3911e;
     background: #b51917;
     padding: 25px 0;
     color: #fff;
@@ -702,14 +703,14 @@ form .icon-question-sign {
 
 .pi-zone-4 .box-information,
 .pi-zone-6 .box-information {
-    background: #fff;
-    color: #011526;
+    background: #c3911e;
+    color: #fff;
 }
 
 .pi-zone-4 .box-information ul li:before,
 .pi-zone-6 .box-information ul li:before{
-    background-color: #b51917;
-    color: #fff;
+    background-color: #fff;
+    color: #c3911e;
 }
 
 /* shop */
